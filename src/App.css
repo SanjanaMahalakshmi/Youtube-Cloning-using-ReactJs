@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+  background-color: #000;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #000;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  background-color: #000;
+}
+
+.logo {
+  color: red;
+  font-size: 40px;
+  margin-top: -10px;
+  margin-left: 5px;
+}
+
+.search-bar {
+  flex: 1;
+  max-width: 400px; 
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 5rem;
+  margin-left: 500px;
+  background-color: #b3b0b0;
+  color: black;
+}
+.icon{
+  font-size: 25px;
+  margin-left: -50px;
+  color: whitesmoke;
+  
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  background-color: #f8f9fa;
+  width: 6 rem;
+  height:700px;
+  position: fixed;
+  top: 56px; 
+  text-align: center;
+  background-color: #000;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  color: #000;
+}
+
+.nav-link.active {
+  background-color: #e9ecef;
+}
+table{
+  width: 800px;
+  margin-left: 300px;
+}
+td{
+  border-radius: 50px;
+  padding: 20px;
+}
+.card-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-left: 150px;
+}
+
+.card {
+  margin-left: 50px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 350px;
+  margin-top: 30px;
+}
+
+.card iframe {
+  width: 100%;
+  height: 150px;
+}
+
+.card-content {
+  padding: 0.5rem;
+}
+
+.card-content h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.card-content p {
+  margin: 0.5rem 0;
+}
+
+.view {
+  color: #888;
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+}
+.line{
+  width: 60px;
+  margin-left: -37px;
+}
+.mike{
+  font-size: 25px;
+  margin-left: 2px;
+}
+.head{
+  margin-left: 260px;
+  color: whitesmoke;
+}
+.bellicon{
+  margin-left: 20px;
+  margin-top: 2px;
+
+}
+.profile{
+  margin-left: 20px;
+  font-size: 25px;
+  margin-top: 3px;
+  color: purple;
+}
+.icon:hover{
+    font-size: 50px;
+}
